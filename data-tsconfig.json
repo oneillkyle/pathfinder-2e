@@ -13,7 +13,9 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "node"
+      "node",
+      "node-fetch",
+      "cheerio"
     ],
     "paths": {
       "@/*": [

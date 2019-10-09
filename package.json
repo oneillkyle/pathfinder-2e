@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate-spells": "ts-node --project data-tsconfig.json ./src/data/spells/create"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -17,6 +18,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@types/node": "^12.7.11",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-plugin-typescript": "^3.11.0",

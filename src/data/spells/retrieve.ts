@@ -1,11 +1,13 @@
+import fetch from 'node-fetch';
+import cheerio from 'cheerio';
 import { createFile } from '../create';
 
-function getSpellAnchors(output: HTMLElement) {
-  const anchors = output.querySelectorAll('a');
+function getSpellAnchors($: CheerioStatic, nodeList: Cheerio) {
   const anchorMap: { [x: string]: string } = {};
-  anchors.forEach(a => {
-    const spellName = a.innerText.split('(')[0].trim();
-    anchorMap[spellName] = a.href;
+  nodeList.each((i, anchor) => {
+    const $anchor = $(anchor);
+    const spellName = $anchor.text().split('(')[0].trim();
+    anchorMap[spellName] = `https://2e.aonprd.com/${$anchor.attr('href')}`;
   });
   return anchorMap;
 }
@@ -43,16 +45,12 @@ export function fetchHtml(url: string, filePath: string) {
       return response.text();
     })
     .then(html => {
-      // Initialize the DOM parser
-      const parser = new DOMParser();
-
-      // Parse the text
-      const doc = parser.parseFromString(html, 'text/html');
-      const output = document.getElementById(
-        'ctl00_MainContent_DetailedOutput'
-      ) as HTMLElement;
-      const spellAnchors = getSpellAnchors(output);
-      const spells = formatSpells(output.innerText, spellAnchors);
+      const $ = cheerio.load(html);
+      const spellAnchors = getSpellAnchors($, $('#ctl00_MainContent_DetailedOutput').find('a'));
+      $('#ctl00_MainContent_DetailedOutput > h2').after('<br />');
+      $('#ctl00_MainContent_DetailedOutput').find('br').replaceWith('\n');
+      // console.log($('#ctl00_MainContent_DetailedOutput').text());
+      const spells = formatSpells($('#ctl00_MainContent_DetailedOutput').text(), spellAnchors);
       createFile(filePath, spells);
     })
     .catch(err => {

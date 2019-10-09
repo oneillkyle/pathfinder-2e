@@ -1,95 +1,110 @@
-export const spells = {
+export const data = {
   'Divine Cantrips': {
     'Chill Touch': {
       name: 'Chill Touch',
       school: 'nec',
       flags: 'H',
-      description: 'Your touch hurts the living or disorients undead.'
+      description: 'Your touch hurts the living or disorients undead.',
+      href: 'Spells.aspx?ID=35'
     },
     Daze: {
       name: 'Daze',
       school: 'enc',
       flags: 'H',
-      description: 'Damage a creature'
+      description: 'Damage a creature',
+      href: 'Spells.aspx?ID=61'
     },
     'Detect Magic': {
       name: 'Detect Magic',
       school: 'div',
       flags: 'H',
-      description: 'Sense whether magic is nearby.'
+      description: 'Sense whether magic is nearby.',
+      href: 'Spells.aspx?ID=66'
     },
     'Disrupt Undead': {
       name: 'Disrupt Undead',
       school: 'nec',
       flags: 'H',
-      description: 'Damage undead with positive energy.'
+      description: 'Damage undead with positive energy.',
+      href: 'Spells.aspx?ID=79'
     },
     'Divine Lance': {
       name: 'Divine Lance',
       school: 'evo',
       flags: 'H',
-      description: 'Throw divine energy that damages based on your deity'
+      description: 'Throw divine energy that damages based on your deity',
+      href: 'Spells.aspx?ID=84'
     },
     'Forbidding Ward': {
       name: 'Forbidding Ward',
       school: 'abj',
       flags: 'H',
-      description: 'Protect an ally against one specific enemy.'
+      description: 'Protect an ally against one specific enemy.',
+      href: 'Spells.aspx?ID=126'
     },
     Guidance: {
       name: 'Guidance',
       school: 'div',
       flags: '',
-      description: 'Divine guidance improves one roll.'
+      description: 'Divine guidance improves one roll.',
+      href: 'Spells.aspx?ID=142'
     },
     'Know Direction': {
       name: 'Know Direction',
       school: 'div',
       flags: 'H',
-      description: 'Find true north.'
+      description: 'Find true north.',
+      href: 'Spells.aspx?ID=169'
     },
     Light: {
       name: 'Light',
       school: 'evo',
       flags: 'H',
-      description: 'Make an object glow.'
+      description: 'Make an object glow.',
+      href: 'Spells.aspx?ID=171'
     },
     Message: {
       name: 'Message',
       school: 'ill',
       flags: 'H',
-      description: 'Speak a message to a distant creature'
+      description: 'Speak a message to a distant creature',
+      href: 'Spells.aspx?ID=190'
     },
     Prestidigitation: {
       name: 'Prestidigitation',
       school: 'evo',
       flags: '',
-      description: 'Perform a minor magical trick.'
+      description: 'Perform a minor magical trick.',
+      href: 'Spells.aspx?ID=229'
     },
     'Read Aura': {
       name: 'Read Aura',
       school: 'div',
       flags: 'H',
-      description: 'Detect if an object is magical'
+      description: 'Detect if an object is magical',
+      href: 'Spells.aspx?ID=246'
     },
     Shield: {
       name: 'Shield',
       school: 'abj',
       flags: 'H',
       description:
-        'A shield of magical force blocks attacks and magic missiles.'
+        'A shield of magical force blocks attacks and magic missiles.',
+      href: 'Spells.aspx?ID=280'
     },
     Sigil: {
       name: 'Sigil',
       school: 'tra',
       flags: 'H',
-      description: 'Leave a magical mark.'
+      description: 'Leave a magical mark.',
+      href: 'Spells.aspx?ID=286'
     },
     Stabilize: {
       name: 'Stabilize',
       school: 'nec',
       flags: '',
-      description: 'Stabilize a dying creature.'
+      description: 'Stabilize a dying creature.',
+      href: 'Spells.aspx?ID=307'
     }
   },
   'Divine 1st-Level Spells': {
@@ -97,128 +112,149 @@ export const spells = {
       name: 'Air Bubble',
       school: 'con',
       flags: '',
-      description: 'React to create air for a creature to breathe.'
+      description: 'React to create air for a creature to breathe.',
+      href: 'Spells.aspx?ID=5'
     },
     Alarm: {
       name: 'Alarm',
       school: 'abj',
       flags: 'H',
-      description: 'Be alerted if a creature enters a warded area.'
+      description: 'Be alerted if a creature enters a warded area.',
+      href: 'Spells.aspx?ID=7'
     },
     Bane: {
       name: 'Bane',
       school: 'enc',
       flags: '',
-      description: 'Weaken enemies'
+      description: 'Weaken enemies',
+      href: 'Spells.aspx?ID=18'
     },
     Bless: {
       name: 'Bless',
       school: 'enc',
       flags: '',
-      description: 'Strengthen allies'
+      description: 'Strengthen allies',
+      href: 'Spells.aspx?ID=25'
     },
     Command: {
       name: 'Command',
       school: 'enc',
       flags: 'H',
-      description: 'Bid a creature to approach'
+      description: 'Bid a creature to approach',
+      href: 'Spells.aspx?ID=45'
     },
     'Create Water': {
       name: 'Create Water',
       school: 'con',
       flags: '',
-      description: 'Conjure 2 gallons of water.'
+      description: 'Conjure 2 gallons of water.',
+      href: 'Spells.aspx?ID=53'
     },
     'Detect Alignment': {
       name: 'Detect Alignment',
       school: 'div',
       flags: 'HU',
-      description: 'See auras of a chosen alignment.'
+      description: 'See auras of a chosen alignment.',
+      href: 'Spells.aspx?ID=65'
     },
     'Detect Poison': {
       name: 'Detect Poison',
       school: 'div',
       flags: 'HU',
       description:
-        'Determine whether an object or creature is poisonous or venomous.'
+        'Determine whether an object or creature is poisonous or venomous.',
+      href: 'Spells.aspx?ID=67'
     },
     'Disrupting Weapons': {
       name: 'Disrupting Weapons',
       school: 'nec',
       flags: 'H',
-      description: 'Weapons deal positive damage to undead.'
+      description: 'Weapons deal positive damage to undead.',
+      href: 'Spells.aspx?ID=80'
     },
     Fear: {
       name: 'Fear',
       school: 'enc',
       flags: 'H',
-      description: 'Frighten a creature'
+      description: 'Frighten a creature',
+      href: 'Spells.aspx?ID=110'
     },
     Harm: {
       name: 'Harm',
       school: 'nec',
       flags: 'H',
-      description: 'Negative energy harms the living or heals the undead'
+      description: ' Negative energy harms the living or heals the undead',
+      href: 'Spells.aspx?ID=146'
     },
     Heal: {
       name: 'Heal',
       school: 'nec',
       flags: 'H',
-      description: 'Positive energy heals the living or harms the undead'
+      description: 'Positive energy heals the living or harms the undead',
+      href: 'Spells.aspx?ID=148'
     },
     Lock: {
       name: 'Lock',
       school: 'abj',
       flags: 'H',
-      description: 'Make a lock hard to open.'
+      description: 'Make a lock hard to open.',
+      href: 'Spells.aspx?ID=174'
     },
     'Magic Weapon': {
       name: 'Magic Weapon',
       school: 'tra',
       flags: '',
-      description: 'Make a weapon temporarily magical.'
+      description: 'Make a weapon temporarily magical.',
+      href: 'Spells.aspx?ID=182'
     },
     Mending: {
       name: 'Mending',
       school: 'tra',
       flags: 'H',
-      description: 'Repair one non'
+      description: 'Repair one non',
+      href: 'Spells.aspx?ID=189'
     },
     Protection: {
       name: 'Protection',
       school: 'abj',
       flags: 'U',
-      description: 'Shield a creature against those of a chosen alignment.'
+      description: ' Shield a creature against those of a chosen alignment.',
+      href: 'Spells.aspx?ID=238'
     },
     'Purify Food and Drink': {
       name: 'Purify Food and Drink',
       school: 'nec',
       flags: '',
-      description: 'Make beverages and meals safe.'
+      description: 'Make beverages and meals safe.',
+      href: 'Spells.aspx?ID=241'
     },
     'Ray of Enfeeblement': {
       name: 'Ray of Enfeeblement',
       school: 'nec',
       flags: '',
-      description: 'Sap a creature'
+      description: 'Sap a creature',
+      href: 'Spells.aspx?ID=244'
     },
     Sanctuary: {
       name: 'Sanctuary',
       school: 'abj',
       flags: '',
-      description: 'Protect a creature from being attacked.'
+      description: 'Protect a creature from being attacked.',
+      href: 'Spells.aspx?ID=266'
     },
     'Spirit Link': {
       name: 'Spirit Link',
       school: 'nec',
       flags: 'H',
-      description: 'Continually transfer your health to someone else.'
+      description: ' Continually transfer your health to someone else.',
+      href: 'Spells.aspx?ID=302'
     },
     Ventriloquism: {
       name: 'Ventriloquism',
       school: 'ill',
       flags: 'H',
-      description: 'Throw your voice.'
+      description: 'Throw your voice.',
+      href: 'Spells.aspx?ID=356'
     }
   },
   'Divine 2nd-Level Spells': {
@@ -226,178 +262,207 @@ export const spells = {
       name: 'Augury',
       school: 'div',
       flags: '',
-      description: 'Predict whether a course of action brings good fortune.'
+      description: 'Predict whether a course of action brings good fortune.',
+      href: 'Spells.aspx?ID=15'
     },
     'Calm Emotions': {
       name: 'Calm Emotions',
       school: 'enc',
       flags: '',
-      description: 'Suppress strong emotions and hostility.'
+      description: 'Suppress strong emotions and hostility.',
+      href: 'Spells.aspx?ID=31'
     },
     'Comprehend Language': {
       name: 'Comprehend Language',
       school: 'div',
       flags: 'H',
-      description: 'A creature understands one language.'
+      description: 'A creature understands one language.',
+      href: 'Spells.aspx?ID=46'
     },
     'Continual Flame': {
       name: 'Continual Flame',
       school: 'evo',
       flags: 'H',
-      description: 'A magical flame burns indefinitely.'
+      description: 'A magical flame burns indefinitely.',
+      href: 'Spells.aspx?ID=50'
     },
     'Create Food': {
       name: 'Create Food',
       school: 'con',
       flags: 'H',
-      description: 'Conjure food that can feed multiple creatures.'
+      description: 'Conjure food that can feed multiple creatures.',
+      href: 'Spells.aspx?ID=52'
     },
     Darkness: {
       name: 'Darkness',
       school: 'evo',
       flags: 'H',
-      description: 'Suppress all light in an area.'
+      description: 'Suppress all light in an area.',
+      href: 'Spells.aspx?ID=59'
     },
     Darkvision: {
       name: 'Darkvision',
       school: 'div',
       flags: 'H',
-      description: 'See in the dark.'
+      description: 'See in the dark.',
+      href: 'Spells.aspx?ID=60'
     },
     Deafness: {
       name: 'Deafness',
       school: 'nec',
       flags: '',
-      description: 'Make a creature deaf.'
+      description: 'Make a creature deaf.',
+      href: 'Spells.aspx?ID=62'
     },
     'Death Knell': {
       name: 'Death Knell',
       school: 'nec',
       flags: '',
-      description: 'Finish of a creature who'
+      description: 'Finish of a creature who',
+      href: 'Spells.aspx?ID=63'
     },
     'Dispel Magic': {
       name: 'Dispel Magic',
       school: 'abj',
       flags: '',
-      description: 'End a spell or suppress an item'
+      description: 'End a spell or suppress an item',
+      href: 'Spells.aspx?ID=78'
     },
     'Endure Elements': {
       name: 'Endure Elements',
       school: 'abj',
       flags: 'H',
-      description: 'Protect a creature from severe cold or heat.'
+      description: 'Protect a creature from severe cold or heat.',
+      href: 'Spells.aspx?ID=99'
     },
     'Enhance Victuals': {
       name: 'Enhance Victuals',
       school: 'tra',
       flags: 'H',
-      description: 'Improve food or drink and remove poisons.'
+      description: 'Improve food or drink and remove poisons.',
+      href: 'Spells.aspx?ID=101'
     },
     'Faerie Fire': {
       name: 'Faerie Fire',
       school: 'evo',
       flags: '',
       description:
-        'Colorful light prevents creatures from being concealed or invisible.'
+        'Colorful light prevents creatures from being concealed or invisible.',
+      href: 'Spells.aspx?ID=107'
     },
     'Gentle Repose': {
       name: 'Gentle Repose',
       school: 'nec',
       flags: 'H',
-      description: 'A corpse doesn'
+      description: 'A corpse doesn',
+      href: 'Spells.aspx?ID=131'
     },
     'Ghoulish Cravings': {
       name: 'Ghoulish Cravings',
       school: 'nec',
       flags: '',
-      description: 'Infect a creature with ghoul fever.'
+      description: 'Infect a creature with ghoul fever.',
+      href: 'Spells.aspx?ID=134'
     },
     'Remove Fear': {
       name: 'Remove Fear',
       school: 'enc',
       flags: 'H',
-      description: 'Free a creature from its fright.'
+      description: 'Free a creature from its fright.',
+      href: 'Spells.aspx?ID=252'
     },
     'Remove Paralysis': {
       name: 'Remove Paralysis',
       school: 'nec',
       flags: 'H',
-      description: 'Free a creature from paralysis.'
+      description: ' Free a creature from paralysis.',
+      href: 'Spells.aspx?ID=253'
     },
     'Resist Energy': {
       name: 'Resist Energy',
       school: 'abj',
       flags: 'H',
-      description: 'Protect a creature from one type of energy damage.'
+      description: 'Protect a creature from one type of energy damage.',
+      href: 'Spells.aspx?ID=256'
     },
     Restoration: {
       name: 'Restoration',
       school: 'nec',
       flags: 'H',
-      description: 'Reduce a condition or lessen a toxin.'
+      description: 'Reduce a condition or lessen a toxin.',
+      href: 'Spells.aspx?ID=258'
     },
     'Restore Senses': {
       name: 'Restore Senses',
       school: 'nec',
       flags: 'H',
-      description: 'Remove a blinding or deafening effect.'
+      description: 'Remove a blinding or deafening effect.',
+      href: 'Spells.aspx?ID=259'
     },
     'See Invisibility': {
       name: 'See Invisibility',
       school: 'div',
       flags: 'H',
-      description: 'See invisible creatures and objects.'
+      description: 'See invisible creatures and objects.',
+      href: 'Spells.aspx?ID=271'
     },
     'Shield Other': {
       name: 'Shield Other',
       school: 'nec',
       flags: '',
-      description: 'Absorb half the damage an ally would take.'
+      description: 'Absorb half the damage an ally would take.',
+      href: 'Spells.aspx?ID=281'
     },
     Silence: {
       name: 'Silence',
       school: 'ill',
       flags: 'H',
-      description: 'Mute all sound from a creature.'
+      description: 'Mute all sound from a creature.',
+      href: 'Spells.aspx?ID=287'
     },
     'Sound Burst': {
       name: 'Sound Burst',
       school: 'evo',
       flags: 'H',
-      description: 'Damage and deafen creatures with a powerful din.'
+      description: 'Damage and deafen creatures with a powerful din.',
+      href: 'Spells.aspx?ID=292'
     },
     'Spiritual Weapon': {
       name: 'Spiritual Weapon',
       school: 'evo',
       flags: 'H',
       description:
-        'Materialize a deific weapon of force that appears and attacks repeatedly.'
+        'Materialize a deific weapon of force that appears and attacks repeatedly.',
+      href: 'Spells.aspx?ID=306'
     },
     Status: {
       name: 'Status',
       school: 'div',
       flags: 'H',
-      description: 'Keep track of a willing creature'
+      description: 'Keep track of a willing creature',
+      href: 'Spells.aspx?ID=308'
     },
     'Undetectable Alignment': {
       name: 'Undetectable Alignment',
       school: 'abj',
       flags: 'U',
       description:
-        'Make a creature or object appear neutral to alignment detection.'
+        'Make a creature or object appear neutral to alignment detection.',
+      href: 'Spells.aspx?ID=348'
     },
     'Water Breathing': {
       name: 'Water Breathing',
       school: 'tra',
       flags: 'H',
-      description: 'Allow creatures to breathe underwater.'
+      description: 'Allow creatures to breathe underwater.',
+      href: 'Spells.aspx?ID=370'
     },
     'Water Walk': {
       name: 'Water Walk',
       school: 'tra',
       flags: 'H',
-      description: 'Buoy a creature so it can walk on water.'
+      description: 'Buoy a creature so it can walk on water.',
+      href: 'Spells.aspx?ID=371'
     }
   },
   'Divine 3rd-Level Spells': {
@@ -405,88 +470,102 @@ export const spells = {
       name: 'Bind Undead',
       school: 'nec',
       flags: '',
-      description: 'Take control of a mindless undead.'
+      description: 'Take control of a mindless undead.',
+      href: 'Spells.aspx?ID=22'
     },
     Blindness: {
       name: 'Blindness',
       school: 'nec',
       flags: '',
-      description: 'Strike a target blind.'
+      description: 'Strike a target blind.',
+      href: 'Spells.aspx?ID=26'
     },
     'Chilling Darkness': {
       name: 'Chilling Darkness',
       school: 'evo',
       flags: 'H',
-      description: 'Ray of evil darkness deals cold damage'
+      description: 'Ray of evil darkness deals cold damage',
+      href: 'Spells.aspx?ID=36'
     },
     'Circle of Protection': {
       name: 'Circle of Protection',
       school: 'abj',
       flags: 'HU',
       description:
-        'A creature emits an aura that protects those within against an alignment.'
+        'A creature emits an aura that protects those within against an alignment.',
+      href: 'Spells.aspx?ID=38'
     },
     'Crisis of Faith': {
       name: 'Crisis of Faith',
       school: 'enc',
       flags: 'H',
       description:
-        'Cause mental damage and possibly make a worshipper unable to cast spells.'
+        'Cause mental damage and possibly make a worshipper unable to cast spells.',
+      href: 'Spells.aspx?ID=55'
     },
     'Dream Message': {
       name: 'Dream Message',
       school: 'enc',
       flags: 'H',
-      description: 'Send a message that arrives in a dream.'
+      description: 'Send a message that arrives in a dream.',
+      href: 'Spells.aspx?ID=90'
     },
     'Glyph of Warding': {
       name: 'Glyph of Warding',
       school: 'abj',
       flags: '',
-      description: 'Store a spell in a symbol to make a trap.'
+      description: 'Store a spell in a symbol to make a trap.',
+      href: 'Spells.aspx?ID=138'
     },
     Heroism: {
       name: 'Heroism',
       school: 'enc',
       flags: 'H',
-      description: 'Stoke a creature'
+      description: 'Stoke a creature',
+      href: 'Spells.aspx?ID=149'
     },
     Locate: {
       name: 'Locate',
       school: 'div',
       flags: 'HU',
-      description: 'Learn the direction to an object.'
+      description: 'Learn the direction to an object.',
+      href: 'Spells.aspx?ID=173'
     },
     'Neutralize Poison': {
       name: 'Neutralize Poison',
       school: 'nec',
       flags: '',
-      description: 'Cure a poison afflicting a creature.'
+      description: 'Cure a poison afflicting a creature.',
+      href: 'Spells.aspx?ID=207'
     },
     'Remove Disease': {
       name: 'Remove Disease',
       school: 'nec',
       flags: '',
-      description: 'Cure a disease afflicting a creature.'
+      description: 'Cure a disease afflicting a creature.',
+      href: 'Spells.aspx?ID=251'
     },
     'Sanctified Ground': {
       name: 'Sanctified Ground',
       school: 'abj',
       flags: '',
-      description: 'Create a 24'
+      description: 'Create a 24',
+      href: 'Spells.aspx?ID=265'
     },
     'Searing Light': {
       name: 'Searing Light',
       school: 'evo',
       flags: 'H',
       description:
-        'A ray of burning light deals extra damage to undead and counteracts darkness.'
+        'A ray of burning light deals extra damage to undead and counteracts darkness.',
+      href: 'Spells.aspx?ID=269'
     },
     'Vampiric Touch': {
       name: 'Vampiric Touch',
       school: 'nec',
       flags: 'H',
-      description: 'Deal negative damage and gain temporary HP with a touch.'
+      description: 'Deal negative damage and gain temporary HP with a touch.',
+      href: 'Spells.aspx?ID=354'
     }
   },
   "Wanderer's Guide (div): Find an ideal route to a location.": {
@@ -495,7 +574,8 @@ export const spells = {
       school: 'enc',
       flags: 'U',
       description:
-        'Designate an area where creatures are compelled to be truthful.'
+        'Designate an area where creatures are compelled to be truthful.',
+      href: 'Spells.aspx?ID=379'
     }
   },
   'Divine 4th-Level Spells': {
@@ -503,59 +583,68 @@ export const spells = {
       name: 'Air Walk',
       school: 'tra',
       flags: '',
-      description: 'Walk on air as though it were solid ground.'
+      description: 'Walk on air as though it were solid ground.',
+      href: 'Spells.aspx?ID=6'
     },
     'Anathematic Reprisal': {
       name: 'Anathematic Reprisal',
       school: 'enc',
       flags: 'H',
       description:
-        'Cause mental pain to one who commits anathema against your deity.'
+        'Cause mental pain to one who commits anathema against your deity.',
+      href: 'Spells.aspx?ID=9'
     },
     'Dimensional Anchor': {
       name: 'Dimensional Anchor',
       school: 'abj',
       flags: '',
       description:
-        'Keep a creature from teleporting or traveling to other planes.'
+        'Keep a creature from teleporting or traveling to other planes.',
+      href: 'Spells.aspx?ID=70'
     },
     'Discern Lies': {
       name: 'Discern Lies',
       school: 'div',
       flags: 'U',
-      description: 'Expertly detect lies and falsehoods.'
+      description: 'Expertly detect lies and falsehoods.',
+      href: 'Spells.aspx?ID=74'
     },
     'Divine Wrath': {
       name: 'Divine Wrath',
       school: 'evo',
       flags: 'H',
       description:
-        'Damage and hinder creatures of alignments opposed by your deity.'
+        'Damage and hinder creatures of alignments opposed by your deity.',
+      href: 'Spells.aspx?ID=86'
     },
     'Forgotten Lines': {
       name: 'Forgotten Lines',
       school: 'div',
       flags: 'HR',
-      description: 'Restore destroyed or censored text.'
+      description: 'Restore destroyed or censored text.',
+      href: 'Spells.aspx?ID=550'
     },
     'Freedom of Movement': {
       name: 'Freedom of Movement',
       school: 'abj',
       flags: '',
-      description: 'A creature overcomes hindrances to its movement.'
+      description: 'A creature overcomes hindrances to its movement.',
+      href: 'Spells.aspx?ID=128'
     },
     'Globe of Invulnerability': {
       name: 'Globe of Invulnerability',
       school: 'abj',
       flags: 'U',
-      description: 'Magical sphere counteracts spells that would enter it.'
+      description: 'Magical sphere counteracts spells that would enter it.',
+      href: 'Spells.aspx?ID=137'
     },
     'Holy Cascade': {
       name: 'Holy Cascade',
       school: 'evo',
       flags: 'H',
       description:
-        'Turn a vial of holy water into an explosion of blessed water.'
+        'Turn a vial of holy water into an explosion of blessed water.',
+      href: 'Spells.aspx?ID=151'
     }
   },
   "Outcast's Curse (enc): Curse a creature to be off-putting and grating.": {
@@ -563,37 +652,43 @@ export const spells = {
       name: 'Read Omens',
       school: 'div',
       flags: 'U',
-      description: 'Get a piece of advice about an upcoming event.'
+      description: 'Get a piece of advice about an upcoming event.',
+      href: 'Spells.aspx?ID=247'
     },
     'Remove Curse': {
       name: 'Remove Curse',
       school: 'nec',
       flags: '',
-      description: 'Counteract a curse af icting a creature.'
+      description: 'Counteract a curse af icting a creature.',
+      href: 'Spells.aspx?ID=250'
     },
     'Spell Immunity': {
       name: 'Spell Immunity',
       school: 'abj',
       flags: '',
-      description: 'Name a spell to negate its effects on you.'
+      description: 'Name a spell to negate its effects on you.',
+      href: 'Spells.aspx?ID=296'
     },
     'Spiritual Anamnesis': {
       name: 'Spiritual Anamnesis',
       school: 'nec',
       flags: 'U',
-      description: 'Overwhelm a target with memories of a past life.'
+      description: 'Overwhelm a target with memories of a past life.',
+      href: 'Spells.aspx?ID=554'
     },
     'Talking Corpse': {
       name: 'Talking Corpse',
       school: 'nec',
       flags: 'U',
-      description: 'Have a corpse answer three questions.'
+      description: ' Have a corpse answer three questions.',
+      href: 'Spells.aspx?ID=329'
     },
     'Vital Beacon': {
       name: 'Vital Beacon',
       school: 'nec',
       flags: 'H',
-      description: 'Radiate vitality that heals creatures that touch you.'
+      description: 'Radiate vitality that heals creatures that touch you.',
+      href: 'Spells.aspx?ID=359'
     }
   },
   'Divine 5th-Level Spells': {
@@ -601,81 +696,95 @@ export const spells = {
       name: 'Abyssal Plague',
       school: 'nec',
       flags: '',
-      description: 'Inflict a draining curse.'
+      description: 'Inflict a draining curse.',
+      href: 'Spells.aspx?ID=1'
     },
     Banishment: {
       name: 'Banishment',
       school: 'abj',
       flags: 'H',
-      description: 'Send a creature back to its home plane.'
+      description: 'Send a creature back to its home plane.',
+      href: 'Spells.aspx?ID=19'
     },
     'Breath of Life': {
       name: 'Breath of Life',
       school: 'nec',
       flags: '',
-      description: 'React to revive a creature at the moment of its death.'
+      description: 'React to revive a creature at the moment of its death.',
+      href: 'Spells.aspx?ID=29'
     },
     'Death Ward': {
       name: 'Death Ward',
       school: 'abj',
       flags: '',
-      description: 'Protect a creature against negative energy.'
+      description: 'Protect a creature against negative energy.',
+      href: 'Spells.aspx?ID=64'
     },
     'Drop Dead': {
       name: 'Drop Dead',
       school: 'ill',
       flags: 'HU',
-      description: 'The target appears to die but actually turns invisible.'
+      description: 'The target appears to die but actually turns invisible.',
+      href: 'Spells.aspx?ID=92'
     },
     'Flame Strike': {
       name: 'Flame Strike',
       school: 'evo',
       flags: 'H',
-      description: 'Call divine fire from the sky.'
+      description: 'Call divine fire from the sky.',
+      href: 'Spells.aspx?ID=120'
     },
     'Prying Eye': {
       name: 'Prying Eye',
       school: 'div',
       flags: '',
-      description: 'An invisible eye transmits what it sees to you.'
+      description: 'An invisible eye transmits what it sees to you.',
+      href: 'Spells.aspx?ID=239'
     },
     Sending: {
       name: 'Sending',
       school: 'div',
       flags: '',
       description:
-        'Send a mental message to a creature anywhere on the planet and get a reply.'
+        'Send a mental message to a creature anywhere on the planet and get a reply.',
+      href: 'Spells.aspx?ID=272'
     },
     'Shadow Blast': {
       name: 'Shadow Blast',
       school: 'evo',
       flags: 'H',
-      description: 'Shape a cone of shadow to deal damage of a type you choose.'
+      description:
+        'Shape a cone of shadow to deal damage of a type you choose.',
+      href: 'Spells.aspx?ID=273'
     },
     'Spiritual Guardian': {
       name: 'Spiritual Guardian',
       school: 'abj',
       flags: 'H',
       description:
-        'Create a magical guardian to attack at your command and take damage for your allies.'
+        'Create a magical guardian to attack at your command and take damage for your allies.',
+      href: 'Spells.aspx?ID=305'
     },
     'Summon Celestial': {
       name: 'Summon Celestial',
       school: 'con',
       flags: 'H',
-      description: 'Conjure a celestial to fight on your behalf.'
+      description: 'Conjure a celestial to fight on your behalf.',
+      href: 'Spells.aspx?ID=317'
     },
     'Summon Fiend': {
       name: 'Summon Fiend',
       school: 'con',
       flags: 'H',
-      description: 'Conjure a f end to fight on your behalf.'
+      description: 'Conjure a f end to fight on your behalf.',
+      href: 'Spells.aspx?ID=323'
     },
     Tongues: {
       name: 'Tongues',
       school: 'div',
       flags: 'HU',
-      description: 'Let a creature understand and speak all languages.'
+      description: 'Let a creature understand and speak all languages.',
+      href: 'Spells.aspx?ID=340'
     }
   },
   'Divine 6th-Level Spells': {
@@ -683,75 +792,87 @@ export const spells = {
       name: 'Blade Barrier',
       school: 'evo',
       flags: 'H',
-      description: 'Form a wall of swords made of force.'
+      description: 'Form a wall of swords made of force.',
+      href: 'Spells.aspx?ID=24'
     },
     'Field of Life': {
       name: 'Field of Life',
       school: 'nec',
       flags: 'H',
-      description: 'Create a positive energy field that heals those within.'
+      description: 'Create a positive energy field that heals those within.',
+      href: 'Spells.aspx?ID=114'
     },
     'Raise Dead': {
       name: 'Raise Dead',
       school: 'nec',
       flags: 'HU',
-      description: 'Return a dead creature to life.'
+      description: 'Return a dead creature to life.',
+      href: 'Spells.aspx?ID=243'
     },
     Repulsion: {
       name: 'Repulsion',
       school: 'abj',
       flags: '',
-      description: 'Prevent creatures from approaching you.'
+      description: 'Prevent creatures from approaching you.',
+      href: 'Spells.aspx?ID=254'
     },
     'Righteous Might': {
       name: 'Righteous Might',
       school: 'tra',
       flags: 'H',
-      description: 'Turn into a battle form with divine armaments.'
+      description: 'Turn into a battle form with divine armaments.',
+      href: 'Spells.aspx?ID=263'
     },
     Spellwrack: {
       name: 'Spellwrack',
       school: 'abj',
       flags: '',
       description:
-        'Curse a creature to be harmed when a spell is cast on it and lower the duration of its spells.'
+        'Curse a creature to be harmed when a spell is cast on it and lower the duration of its spells.',
+      href: 'Spells.aspx?ID=298'
     },
     'Spirit Blast': {
       name: 'Spirit Blast',
       school: 'nec',
       flags: 'H',
-      description: 'Damage a creature'
+      description: 'Damage a creature',
+      href: 'Spells.aspx?ID=301'
     },
     'Stone Tell': {
       name: 'Stone Tell',
       school: 'evo',
       flags: 'U',
-      description: 'Speak to spirits within natural stone.'
+      description: 'Speak to spirits within natural stone.',
+      href: 'Spells.aspx?ID=310'
     },
     'Stone to Flesh': {
       name: 'Stone to Flesh',
       school: 'tra',
       flags: '',
-      description: 'Turn a creature turned to stone back to flesh.'
+      description: 'Turn a creature turned to stone back to flesh.',
+      href: 'Spells.aspx?ID=311'
     },
     'True Seeing': {
       name: 'True Seeing',
       school: 'div',
       flags: '',
-      description: 'See through illusions and transmutations.'
+      description: 'See through illusions and transmutations.',
+      href: 'Spells.aspx?ID=344'
     },
     'Vampiric Exsanguination': {
       name: 'Vampiric Exsanguination',
       school: 'nec',
       flags: 'H',
-      description: 'Draw blood and life force from creatures in a cone.'
+      description: 'Draw blood and life force from creatures in a cone.',
+      href: 'Spells.aspx?ID=353'
     },
     'Zealous Conviction': {
       name: 'Zealous Conviction',
       school: 'enc',
       flags: '',
       description:
-        'Instill unshakable conviction and zeal in willing creatures.'
+        'Instill unshakable conviction and zeal in willing creatures.',
+      href: 'Spells.aspx?ID=378'
     }
   },
   'Divine 7th-Level Spells': {
@@ -759,63 +880,73 @@ export const spells = {
       name: 'Dimensional Lock',
       school: 'abj',
       flags: 'U',
-      description: 'Prevent teleportation and planar travel.'
+      description: 'Prevent teleportation and planar travel.',
+      href: 'Spells.aspx?ID=71'
     },
     'Divine Decree': {
       name: 'Divine Decree',
       school: 'evo',
       flags: '',
-      description: 'Creatures of alignments opposed by your deity are damaged'
+      description: 'Creatures of alignments opposed by your deity are damaged',
+      href: 'Spells.aspx?ID=82'
     },
     'Divine Vessel': {
       name: 'Divine Vessel',
       school: 'nec',
       flags: 'H',
-      description: 'Take on aspects of a servitor of your deity.'
+      description: 'Take on aspects of a servitor of your deity.',
+      href: 'Spells.aspx?ID=85'
     },
     'Eclipse Burst': {
       name: 'Eclipse Burst',
       school: 'nec',
       flags: 'H',
-      description: 'A globe of darkness deals cold damage'
+      description: 'A globe of darkness deals cold damage',
+      href: 'Spells.aspx?ID=96'
     },
     'Energy Aegis': {
       name: 'Energy Aegis',
       school: 'abj',
       flags: 'H',
-      description: 'A creature gains resistance to acid'
+      description: 'A creature gains resistance to acid',
+      href: 'Spells.aspx?ID=100'
     },
     'Ethereal Jaunt': {
       name: 'Ethereal Jaunt',
       school: 'con',
       flags: 'HU',
       description:
-        'Use the Ethereal Plane to move through objects and into the air.'
+        'Use the Ethereal Plane to move through objects and into the air.',
+      href: 'Spells.aspx?ID=105'
     },
     'Finger of Death': {
       name: 'Finger of Death',
       school: 'nec',
       flags: 'H',
       description:
-        'Point at a creature to deal negative damage and possibly kill it instantly.'
+        'Point at a creature to deal negative damage and possibly kill it instantly.',
+      href: 'Spells.aspx?ID=116'
     },
     'Plane Shift': {
       name: 'Plane Shift',
       school: 'con',
       flags: 'U',
-      description: 'Transport creatures to another plane of existence.'
+      description: ' Transport creatures to another plane of existence.',
+      href: 'Spells.aspx?ID=222'
     },
     Regenerate: {
       name: 'Regenerate',
       school: 'nec',
       flags: 'H',
-      description: 'Cause a creature to heal over time'
+      description: 'Cause a creature to heal over time',
+      href: 'Spells.aspx?ID=248'
     },
     Sunburst: {
       name: 'Sunburst',
       school: 'evo',
       flags: 'H',
-      description: 'A globe of sunlight deals fire damage'
+      description: 'A globe of sunlight deals fire damage',
+      href: 'Spells.aspx?ID=326'
     }
   },
   'Divine 8th-Level Spells': {
@@ -823,38 +954,44 @@ export const spells = {
       name: 'Antimagic Field',
       school: 'abj',
       flags: 'R',
-      description: 'Magic doesn'
+      description: 'Magic doesn',
+      href: 'Spells.aspx?ID=14'
     },
     'Discern Location': {
       name: 'Discern Location',
       school: 'div',
       flags: 'U',
-      description: 'Discover a target'
+      description: 'Discover a target',
+      href: 'Spells.aspx?ID=75'
     },
     'Divine Aura': {
       name: 'Divine Aura',
       school: 'abj',
       flags: '',
       description:
-        'Allies in an aura have better defenses and are protected against one alignment.'
+        'Allies in an aura have better defenses and are protected against one alignment.',
+      href: 'Spells.aspx?ID=81'
     },
     'Divine Inspiration': {
       name: 'Divine Inspiration',
       school: 'enc',
       flags: '',
-      description: 'Spiritual energy recovers a creature'
+      description: 'Spiritual energy recovers a creature',
+      href: 'Spells.aspx?ID=83'
     },
     'Moment of Renewal': {
       name: 'Moment of Renewal',
       school: 'nec',
       flags: '',
-      description: 'Give a day'
+      description: 'Give a day',
+      href: 'Spells.aspx?ID=201'
     },
     'Spiritual Epidemic': {
       name: 'Spiritual Epidemic',
       school: 'nec',
       flags: '',
-      description: 'Weaken a target with a communicable curse.'
+      description: 'Weaken a target with a communicable curse.',
+      href: 'Spells.aspx?ID=304'
     }
   },
   'Divine 9th-Level Spells': {
@@ -862,51 +999,59 @@ export const spells = {
       name: 'Bind Soul',
       school: 'nec',
       flags: 'U',
-      description: 'Imprison a dead creature'
+      description: 'Imprison a dead creature',
+      href: 'Spells.aspx?ID=21'
     },
     Crusade: {
       name: 'Crusade',
       school: 'enc',
       flags: 'HU',
-      description: 'Creatures become dedicated to a cause of your choice.'
+      description: 'Creatures become dedicated to a cause of your choice.',
+      href: 'Spells.aspx?ID=56'
     },
     Foresight: {
       name: 'Foresight',
       school: 'div',
       flags: '',
       description:
-        'Sense when a creature is in danger and React to protect it with good fortune.'
+        'Sense when a creature is in danger and React to protect it with good fortune.',
+      href: 'Spells.aspx?ID=127'
     },
     Massacre: {
       name: 'Massacre',
       school: 'nec',
       flags: 'H',
-      description: 'Instantly kill multiple creatures.'
+      description: 'Instantly kill multiple creatures.',
+      href: 'Spells.aspx?ID=186'
     },
     'Overwhelming Presence': {
       name: 'Overwhelming Presence',
       school: 'enc',
       flags: '',
-      description: 'Take on the majesty of a god.'
+      description: 'Take on the majesty of a god.',
+      href: 'Spells.aspx?ID=212'
     },
     'Telepathic Demand': {
       name: 'Telepathic Demand',
       school: 'enc',
       flags: '',
       description:
-        'Send a mental message that impels a creature toward a course of action.'
+        'Send a mental message that impels a creature toward a course of action.',
+      href: 'Spells.aspx?ID=336'
     },
     'Wail of the Banshee': {
       name: 'Wail of the Banshee',
       school: 'nec',
       flags: '',
-      description: 'Scream'
+      description: 'Scream',
+      href: 'Spells.aspx?ID=361'
     },
     'Weapon of Judgement': {
       name: 'Weapon of Judgement',
       school: 'evo',
       flags: 'H',
-      description: 'Form a weapon to enforce war or peace.'
+      description: 'Form a weapon to enforce war or peace.',
+      href: 'Spells.aspx?ID=372'
     }
   },
   'Divine 10th-Level Spells': {
@@ -914,32 +1059,37 @@ export const spells = {
       name: 'Avatar',
       school: 'tra',
       flags: '',
-      description: 'Transform into a battle form determined by your deity.'
+      description: 'Transform into a battle form determined by your deity.',
+      href: 'Spells.aspx?ID=16'
     },
     Gate: {
       name: 'Gate',
       school: 'con',
       flags: 'U',
-      description: 'Tear open a portal to another plane.'
+      description: 'Tear open a portal to another plane.',
+      href: 'Spells.aspx?ID=130'
     },
     Miracle: {
       name: 'Miracle',
       school: 'div',
       flags: '',
-      description: 'Ask for a blessing to duplicate divine spells.'
+      description: 'Ask for a blessing to duplicate divine spells.',
+      href: 'Spells.aspx?ID=196'
     },
     Remake: {
       name: 'Remake',
       school: 'con',
       flags: 'U',
-      description: 'Recreate a destroyed object.'
+      description: 'Recreate a destroyed object.',
+      href: 'Spells.aspx?ID=249'
     },
     Revival: {
       name: 'Revival',
       school: 'nec',
       flags: '',
       description:
-        'Heal creatures in an area and return the dead to life temporarily.'
+        'Heal creatures in an area and return the dead to life temporarily.',
+      href: 'Spells.aspx?ID=262'
     }
   }
 };

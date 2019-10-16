@@ -19,3 +19,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+src/data/spells/descriptions-html
+src/data/spells/descriptions-test

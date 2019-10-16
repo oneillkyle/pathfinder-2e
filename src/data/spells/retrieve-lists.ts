@@ -21,7 +21,6 @@ export function formatSpells(
   spellAnchors: { [x: string]: string }
 ) {
   const arr = str.split('\n');
-  console.log(arr);
   let currentType: string;
   return arr.reduce((spells: { [x: string]: { [k: string]: {} } }, cur) => {
     if (!cur) return spells;
@@ -32,7 +31,8 @@ export function formatSpells(
         school: m[2],
         flags: m[3],
         description: m[4],
-        href: spellAnchors[m[1].trim()]
+        href: spellAnchors[m[1].trim()],
+        id: spellAnchors[m[1].trim()].split('?ID=')[1]
       };
     } else {
       currentType = cur;
@@ -59,7 +59,8 @@ export function newSpellFormatter($: CheerioStatic, doc: Cheerio) {
           school: m[2],
           flags: m[3],
           description: elx.nextSibling.nodeValue.replace(': ', '').replace('\n', ' '),
-          href: `https://2e.aonprd.com/${e.attr('href')}`
+          href: `https://2e.aonprd.com/${e.attr('href')}`,
+          id: e.attr('href').split('?ID=')[1]
         };
         spells[headerText][m[1].trim()] = d;
       }

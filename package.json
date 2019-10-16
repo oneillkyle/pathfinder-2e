@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "generate-spells": "ts-node --project data-tsconfig.json ./src/data/spells/create"
+    "generate-spells": "ts-node --project data-tsconfig.json ./src/data/spells/create-lists",
+    "generate-spell-descriptions-html": "ts-node --project data-tsconfig.json ./src/data/spells/create-descriptions-html",
+    "generate-spell-descriptions": "ts-node --project data-tsconfig.json ./src/data/spells/create-descriptions"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.13",
@@ -14,6 +16,7 @@
     "core-js": "^2.6.5",
     "node-fetch": "^2.6.0",
     "register-service-worker": "^1.6.2",
+    "rxjs": "^6.5.3",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",

@@ -15,7 +15,8 @@
       "webpack-env",
       "node",
       "node-fetch",
-      "cheerio"
+      "cheerio",
+      "lodash"
     ],
     "paths": {
       "@/*": [
